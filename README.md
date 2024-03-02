@@ -57,4 +57,4 @@ mpa_gps_temp(df)
 
 ## Citation
 
-Brisneve Edullantes (2024). GPS and Temperature Data Merger. R package version 0.1.0.
+Brisneve Edullantes (2024). gps.temp.merger: GPS and Temperature Data Merger. R package version 0.1.0.
