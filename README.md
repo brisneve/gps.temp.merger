@@ -46,7 +46,7 @@ df <- merge_gps_temp(path_temp, path_gps, output_path = NULL)
 
 head(df)
 
-merge_gps_temp(df)
+mpa_gps_temp(df)
 ```
 
 
