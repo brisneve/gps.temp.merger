@@ -1,6 +1,6 @@
 # This maps outs the merged GPS data and temperature data
 
-map_gps_temp <- function(df){
+map_gps_temp <- function(merged_data){
 
   libraries <- c("geosphere", "ggmap", "viridis", "tidyverse")
 
@@ -25,12 +25,12 @@ map_gps_temp <- function(df){
   }
 
 
-  coor_centroid <- centroid(df[,1:2])
+  coor_centroid <- centroid(merged_data[,1:2])
 
   map <- get_map(location = c(lon = coor_centroid[1], lat = coor_centroid[2]), zoom = 12, source="google")
 
   ggmap(map)+
-    geom_point(data=df,aes(lon,lat,color=temp))+
+    geom_point(data=merged_data,aes(lon,lat,color=temp))+
     scale_color_viridis(discrete = FALSE, option="H", name = "Temperature")+
     xlab("Longitude")+
     ylab("Latitude")+
