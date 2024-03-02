@@ -1,12 +1,10 @@
-\name{hello}
+\name{merge_gps_temp}
 \alias{merge_gps_temp}
-\title{Hello, World!}
+\title{GPS and Temperature Data Merger}
 \usage{
-merge_gps_temp()
+merge_gps_temp(path_temp, path_gps, output_path = NULL)
 }
 \description{
 Merges GPS tracker data and temperature logger data
 }
-\examples{
-hello()
-}
+
