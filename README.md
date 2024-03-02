@@ -1,4 +1,4 @@
-# GPS and Temperature Merger
+# GPS and Temperature Data Merger
 
 ## Introduction
 
