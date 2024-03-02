@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The package serves as a tool to merge data gathered from two different sources: GPS tracking via a mobile app that tracks the geographical coordinates (latitude and longitude) of the sampling location, and water temperature logging through the HOBO Water Temperature Pro v2 Data Logger that records water temperature readings at specific intervals.
+The package serves as a tool to merge data gathered from two different sources: GPS tracking via a mobile app that tracks the geographical coordinates (latitude and longitude) of the sampling location, and water temperature logging through the [HOBO Water Temperature Pro v2 Data Logger](https://www.onsetcomp.com/products/data-loggers/u22-001) that records water temperature readings at specific intervals.
 
 Both the GPS tracker and the water temperature logger are deployed simultaneously during field sampling. This ensures that data from both sources correspond to the same time frame and location. The GPS tracker continuously logs the coordinates of the sampling location as the mobile device moves. Meanwhile, the water temperature logger periodically records water temperature data.
 
