@@ -36,6 +36,20 @@ map_gps_temp(df)
 | output_path | a path to save merge dataset as .csv                                                 |
 | df          | data frame generated from `merge_gps_temp()` function                                |
 
+## Example
+
+```r
+path_temp <- "data/temp_logger_data.csv"
+path_gps <- "data/gps_tracker_data.txt"
+
+df <- merge_gps_temp(path_temp, path_gps, output_path = NULL)
+
+head(df)
+
+merge_gps_temp(df)
+```
+
+
 ## Citation
 
 Brisneve Edullantes (2024). GPS and Temperature Merger. R package version 0.1.0.
