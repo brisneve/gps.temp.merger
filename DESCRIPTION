@@ -1,11 +1,10 @@
 Package: gps.temp.merger
 Type: Package
-Title: What the Package Does (Title Case)
+Title: GPS and Temperature Data Merger
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Brisneve Edullantes, PhD
+Maintainer: Brisneve Edullantes, PhD <bedullantes@up.edu.ph>
+Description: The package serves as a tool to merge data gathered from two different sources: GPS tracking via a mobile app that tracks the geographical coordinates (latitude and longitude) of the sampling location, and water temperature logging through the HOBO Water Temperature Pro v2 Data Logger that records water temperature readings at specific intervals.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
