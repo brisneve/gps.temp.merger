@@ -1,6 +1,6 @@
 # GPS Data and Temperature Data Merger
 
-merge_gps_temp <- function(path_temp, path_gps, output_path = NULL){
+merge_gps_temp <- function(path_gps, path_temp, output_path = NULL){
 
   if(!require(tidyverse)){
     install.packages("tidyverse")
